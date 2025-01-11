@@ -1,0 +1,47 @@
+PODS:
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - RxSwiftExt
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+
+SPEC CHECKSUMS:
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 805e562ac85a062b889ae3284f652f80a5c0af50
+
+COCOAPODS: 1.16.0

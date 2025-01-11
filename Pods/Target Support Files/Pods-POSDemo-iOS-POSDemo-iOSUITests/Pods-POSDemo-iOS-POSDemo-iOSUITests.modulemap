@@ -1,0 +1,6 @@
+module Pods_POSDemo_iOS_POSDemo_iOSUITests {
+  umbrella header "Pods-POSDemo-iOS-POSDemo-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

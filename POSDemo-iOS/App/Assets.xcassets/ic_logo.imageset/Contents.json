@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "截圖 2024-12-08 下午5.19.27.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}

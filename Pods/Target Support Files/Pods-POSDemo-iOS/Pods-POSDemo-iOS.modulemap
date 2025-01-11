@@ -1,0 +1,6 @@
+module Pods_POSDemo_iOS {
+  umbrella header "Pods-POSDemo-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

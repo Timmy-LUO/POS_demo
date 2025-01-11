@@ -7,15 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B607D3A25ED47315D2FFA8 /* libPods-POSDemo-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D59765F5919F100020E88 /* libPods-POSDemo-iOSTests.a */; };
+		32D5D17D8FDA449C8860C946 /* libPods-POSDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ECD0E3932DB2DC192C09F1 /* libPods-POSDemo-iOS.a */; };
 		6232E1552CE5AD2C00F89AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1542CE5AD2C00F89AE8 /* AppDelegate.swift */; };
 		6232E1572CE5AD2C00F89AE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1562CE5AD2C00F89AE8 /* SceneDelegate.swift */; };
-		6232E1592CE5AD2C00F89AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1582CE5AD2C00F89AE8 /* ViewController.swift */; };
-		6232E15C2CE5AD2C00F89AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6232E15A2CE5AD2C00F89AE8 /* Main.storyboard */; };
 		6232E15E2CE5AD2D00F89AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6232E15D2CE5AD2D00F89AE8 /* Assets.xcassets */; };
 		6232E1612CE5AD2D00F89AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6232E15F2CE5AD2D00F89AE8 /* LaunchScreen.storyboard */; };
 		6232E16C2CE5AD2D00F89AE8 /* POSDemo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E16B2CE5AD2D00F89AE8 /* POSDemo_iOSTests.swift */; };
 		6232E1762CE5AD2D00F89AE8 /* POSDemo_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1752CE5AD2D00F89AE8 /* POSDemo_iOSUITests.swift */; };
 		6232E1782CE5AD2D00F89AE8 /* POSDemo_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1772CE5AD2D00F89AE8 /* POSDemo_iOSUITestsLaunchTests.swift */; };
+		6232E1882CE5B36B00F89AE8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1872CE5B36B00F89AE8 /* Coordinator.swift */; };
+		6232E18A2CE5B3A900F89AE8 /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E1892CE5B3A900F89AE8 /* WelcomeCoordinator.swift */; };
+		6232E18D2CE5B43000F89AE8 /* CommodityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232E18C2CE5B43000F89AE8 /* CommodityViewController.swift */; };
+		6256128A2D27B685005BE9D8 /* CheckoutReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612892D27B685005BE9D8 /* CheckoutReviewViewController.swift */; };
+		6256128D2D27C346005BE9D8 /* CheckoutReviewCommodityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6256128C2D27C346005BE9D8 /* CheckoutReviewCommodityViewController.swift */; };
+		6256128F2D27C6A7005BE9D8 /* CheckoutReviewCommodityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6256128E2D27C6A7005BE9D8 /* CheckoutReviewCommodityTableView.swift */; };
+		625612912D27C862005BE9D8 /* VerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612902D27C862005BE9D8 /* VerticalAlignLabel.swift */; };
+		625612932D27C983005BE9D8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612922D27C983005BE9D8 /* InfoView.swift */; };
+		625612952D27CCF1005BE9D8 /* CheckoutCommodityUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612942D27CCF1005BE9D8 /* CheckoutCommodityUiModel.swift */; };
+		625612992D27D138005BE9D8 /* BarcodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612982D27D138005BE9D8 /* BarcodeInputView.swift */; };
+		6256129B2D27D1A9005BE9D8 /* POSDemoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6256129A2D27D1A9005BE9D8 /* POSDemoTextField.swift */; };
+		6256129F2D2EB513005BE9D8 /* CheckoutPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6256129E2D2EB513005BE9D8 /* CheckoutPaymentViewController.swift */; };
+		625612A12D2EB750005BE9D8 /* CheckoutReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612A02D2EB750005BE9D8 /* CheckoutReviewViewModel.swift */; };
+		625612A32D2F8461005BE9D8 /* WhiteShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612A22D2F8461005BE9D8 /* WhiteShadowButton.swift */; };
+		625612A52D2F910E005BE9D8 /* CheckoutPaymentItemUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612A42D2F910E005BE9D8 /* CheckoutPaymentItemUiModel.swift */; };
+		625612A72D2F9134005BE9D8 /* CheckoutPaymentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612A62D2F9134005BE9D8 /* CheckoutPaymentTableView.swift */; };
+		625612A92D2FF1F8005BE9D8 /* CheckoutUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612A82D2FF1F8005BE9D8 /* CheckoutUiModel.swift */; };
+		625612AB2D30D8DF005BE9D8 /* CheckoutPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612AA2D30D8DF005BE9D8 /* CheckoutPaymentViewModel.swift */; };
+		625612AF2D314085005BE9D8 /* AlertDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612AD2D314084005BE9D8 /* AlertDialogViewController.swift */; };
+		625612B02D314085005BE9D8 /* POSDemoTitleInputDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612AE2D314085005BE9D8 /* POSDemoTitleInputDialogViewController.swift */; };
+		625612B22D314506005BE9D8 /* BaseTitleDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612B12D314506005BE9D8 /* BaseTitleDialogViewController.swift */; };
+		625612B42D314583005BE9D8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612B32D314583005BE9D8 /* Utils.swift */; };
+		625612B72D314671005BE9D8 /* POSDemoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612B62D314671005BE9D8 /* POSDemoInputView.swift */; };
+		625612C62D323B88005BE9D8 /* PickerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612C42D323B87005BE9D8 /* PickerInputView.swift */; };
+		625612C72D323B88005BE9D8 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612C52D323B88005BE9D8 /* PickerViewController.swift */; };
+		625612CB2D324141005BE9D8 /* CheckoutPaymentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612CA2D324141005BE9D8 /* CheckoutPaymentCardViewController.swift */; };
+		625612CD2D324171005BE9D8 /* CheckoutPaymentCardInstallmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612CC2D324171005BE9D8 /* CheckoutPaymentCardInstallmentViewController.swift */; };
+		625612D02D3241BD005BE9D8 /* CheckoutPaymentCardUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612CE2D3241BD005BE9D8 /* CheckoutPaymentCardUiModel.swift */; };
+		625612D12D3241BD005BE9D8 /* CheckoutPaymentInstallmentUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612CF2D3241BD005BE9D8 /* CheckoutPaymentInstallmentUiModel.swift */; };
+		625612D32D324469005BE9D8 /* CheckoutPaymentCardInstallmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612D22D324469005BE9D8 /* CheckoutPaymentCardInstallmentDetailViewController.swift */; };
+		625612D52D324487005BE9D8 /* CheckoutPaymentCardAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625612D42D324487005BE9D8 /* CheckoutPaymentCardAmountViewController.swift */; };
+		628C4B522D018EA200DF3D09 /* CommodityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B512D018EA200DF3D09 /* CommodityViewModel.swift */; };
+		628C4B552D018F8600DF3D09 /* CommodityLabelUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B542D018F8600DF3D09 /* CommodityLabelUiModel.swift */; };
+		628C4B572D0193A200DF3D09 /* CommodityLabelTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B562D0193A200DF3D09 /* CommodityLabelTableView.swift */; };
+		628C4B5A2D0194D800DF3D09 /* SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B592D0194D800DF3D09 /* SolidButton.swift */; };
+		628C4B5D2D01953700DF3D09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B5C2D01953700DF3D09 /* Extensions.swift */; };
+		628C4B5F2D05587400DF3D09 /* SearchInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B5E2D05587400DF3D09 /* SearchInputView.swift */; };
+		628C4B612D056A1D00DF3D09 /* CommodityListCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B602D056A1D00DF3D09 /* CommodityListCollectionView.swift */; };
+		628C4B632D056A5400DF3D09 /* CommodityUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B622D056A5400DF3D09 /* CommodityUiModel.swift */; };
+		628C4B672D056D0100DF3D09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B662D056D0100DF3D09 /* BaseViewController.swift */; };
+		628C4B692D0577E800DF3D09 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628C4B682D0577E800DF3D09 /* Colors.xcassets */; };
+		628C4B6C2D06B75100DF3D09 /* CommodityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B6B2D06B75100DF3D09 /* CommodityDetailViewController.swift */; };
+		628C4B6E2D06BD8300DF3D09 /* HollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B6D2D06BD8300DF3D09 /* HollowButton.swift */; };
+		628C4B712D06BDB900DF3D09 /* CommodityDetailSizeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B6F2D06BDB900DF3D09 /* CommodityDetailSizeCollectionView.swift */; };
+		628C4B722D06BDB900DF3D09 /* CommodityDetailColorCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B702D06BDB900DF3D09 /* CommodityDetailColorCollectionView.swift */; };
+		628C4B742D06BE0A00DF3D09 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B732D06BE0A00DF3D09 /* RadioButton.swift */; };
+		DAD81BB0D741CD8BDCE1A9A0 /* libPods-POSDemo-iOS-POSDemo-iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B41FA6FC049A1A68DCC0D5 /* libPods-POSDemo-iOS-POSDemo-iOSUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +83,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244D59765F5919F100020E88 /* libPods-POSDemo-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POSDemo-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E115BFB0D3BD0C69CFFDCD /* Pods-POSDemo-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOSTests/Pods-POSDemo-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6232E1512CE5AD2C00F89AE8 /* POSDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POSDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6232E1542CE5AD2C00F89AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6232E1562CE5AD2C00F89AE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6232E1582CE5AD2C00F89AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6232E15B2CE5AD2C00F89AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6232E15D2CE5AD2D00F89AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6232E1602CE5AD2D00F89AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6232E1622CE5AD2D00F89AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +96,59 @@
 		6232E1712CE5AD2D00F89AE8 /* POSDemo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POSDemo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6232E1752CE5AD2D00F89AE8 /* POSDemo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSDemo_iOSUITests.swift; sourceTree = "<group>"; };
 		6232E1772CE5AD2D00F89AE8 /* POSDemo_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSDemo_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6232E1872CE5B36B00F89AE8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6232E1892CE5B3A900F89AE8 /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
+		6232E18C2CE5B43000F89AE8 /* CommodityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommodityViewController.swift; sourceTree = "<group>"; };
+		625612892D27B685005BE9D8 /* CheckoutReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutReviewViewController.swift; sourceTree = "<group>"; };
+		6256128C2D27C346005BE9D8 /* CheckoutReviewCommodityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutReviewCommodityViewController.swift; sourceTree = "<group>"; };
+		6256128E2D27C6A7005BE9D8 /* CheckoutReviewCommodityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutReviewCommodityTableView.swift; sourceTree = "<group>"; };
+		625612902D27C862005BE9D8 /* VerticalAlignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalAlignLabel.swift; sourceTree = "<group>"; };
+		625612922D27C983005BE9D8 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		625612942D27CCF1005BE9D8 /* CheckoutCommodityUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCommodityUiModel.swift; sourceTree = "<group>"; };
+		625612982D27D138005BE9D8 /* BarcodeInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeInputView.swift; sourceTree = "<group>"; };
+		6256129A2D27D1A9005BE9D8 /* POSDemoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSDemoTextField.swift; sourceTree = "<group>"; };
+		6256129E2D2EB513005BE9D8 /* CheckoutPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentViewController.swift; sourceTree = "<group>"; };
+		625612A02D2EB750005BE9D8 /* CheckoutReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutReviewViewModel.swift; sourceTree = "<group>"; };
+		625612A22D2F8461005BE9D8 /* WhiteShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteShadowButton.swift; sourceTree = "<group>"; };
+		625612A42D2F910E005BE9D8 /* CheckoutPaymentItemUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentItemUiModel.swift; sourceTree = "<group>"; };
+		625612A62D2F9134005BE9D8 /* CheckoutPaymentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentTableView.swift; sourceTree = "<group>"; };
+		625612A82D2FF1F8005BE9D8 /* CheckoutUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutUiModel.swift; sourceTree = "<group>"; };
+		625612AA2D30D8DF005BE9D8 /* CheckoutPaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentViewModel.swift; sourceTree = "<group>"; };
+		625612AD2D314084005BE9D8 /* AlertDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDialogViewController.swift; sourceTree = "<group>"; };
+		625612AE2D314085005BE9D8 /* POSDemoTitleInputDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSDemoTitleInputDialogViewController.swift; sourceTree = "<group>"; };
+		625612B12D314506005BE9D8 /* BaseTitleDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTitleDialogViewController.swift; sourceTree = "<group>"; };
+		625612B32D314583005BE9D8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		625612B62D314671005BE9D8 /* POSDemoInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSDemoInputView.swift; sourceTree = "<group>"; };
+		625612C42D323B87005BE9D8 /* PickerInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerInputView.swift; sourceTree = "<group>"; };
+		625612C52D323B88005BE9D8 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		625612CA2D324141005BE9D8 /* CheckoutPaymentCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentCardViewController.swift; sourceTree = "<group>"; };
+		625612CC2D324171005BE9D8 /* CheckoutPaymentCardInstallmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentCardInstallmentViewController.swift; sourceTree = "<group>"; };
+		625612CE2D3241BD005BE9D8 /* CheckoutPaymentCardUiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentCardUiModel.swift; sourceTree = "<group>"; };
+		625612CF2D3241BD005BE9D8 /* CheckoutPaymentInstallmentUiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentInstallmentUiModel.swift; sourceTree = "<group>"; };
+		625612D22D324469005BE9D8 /* CheckoutPaymentCardInstallmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentCardInstallmentDetailViewController.swift; sourceTree = "<group>"; };
+		625612D42D324487005BE9D8 /* CheckoutPaymentCardAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentCardAmountViewController.swift; sourceTree = "<group>"; };
+		628C4B512D018EA200DF3D09 /* CommodityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommodityViewModel.swift; sourceTree = "<group>"; };
+		628C4B542D018F8600DF3D09 /* CommodityLabelUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommodityLabelUiModel.swift; sourceTree = "<group>"; };
+		628C4B562D0193A200DF3D09 /* CommodityLabelTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommodityLabelTableView.swift; sourceTree = "<group>"; };
+		628C4B592D0194D800DF3D09 /* SolidButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidButton.swift; sourceTree = "<group>"; };
+		628C4B5C2D01953700DF3D09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		628C4B5E2D05587400DF3D09 /* SearchInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInputView.swift; sourceTree = "<group>"; };
+		628C4B602D056A1D00DF3D09 /* CommodityListCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommodityListCollectionView.swift; sourceTree = "<group>"; };
+		628C4B622D056A5400DF3D09 /* CommodityUiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommodityUiModel.swift; sourceTree = "<group>"; };
+		628C4B662D056D0100DF3D09 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		628C4B682D0577E800DF3D09 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		628C4B6B2D06B75100DF3D09 /* CommodityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommodityDetailViewController.swift; sourceTree = "<group>"; };
+		628C4B6D2D06BD8300DF3D09 /* HollowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HollowButton.swift; sourceTree = "<group>"; };
+		628C4B6F2D06BDB900DF3D09 /* CommodityDetailSizeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommodityDetailSizeCollectionView.swift; sourceTree = "<group>"; };
+		628C4B702D06BDB900DF3D09 /* CommodityDetailColorCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommodityDetailColorCollectionView.swift; sourceTree = "<group>"; };
+		628C4B732D06BE0A00DF3D09 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		6492442976A1D7CFB6C8E8D7 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOS-POSDemo-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOS-POSDemo-iOSUITests/Pods-POSDemo-iOS-POSDemo-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7417AE609291FC1A48585972 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOS-POSDemo-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOS-POSDemo-iOSUITests/Pods-POSDemo-iOS-POSDemo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8026C4564EC4995FB092F4B4 /* Pods-POSDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOS.release.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOS/Pods-POSDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		82ECD0E3932DB2DC192C09F1 /* libPods-POSDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POSDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA656873B5AB7D9498A8F760 /* Pods-POSDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOS/Pods-POSDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B41FA6FC049A1A68DCC0D5 /* libPods-POSDemo-iOS-POSDemo-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POSDemo-iOS-POSDemo-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA57F58FFCFDFCF787C62A5 /* Pods-POSDemo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSDemo-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-POSDemo-iOSTests/Pods-POSDemo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D5D17D8FDA449C8860C946 /* libPods-POSDemo-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B607D3A25ED47315D2FFA8 /* libPods-POSDemo-iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +172,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD81BB0D741CD8BDCE1A9A0 /* libPods-POSDemo-iOS-POSDemo-iOSUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35495979DA9B31B7A85830D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA656873B5AB7D9498A8F760 /* Pods-POSDemo-iOS.debug.xcconfig */,
+				8026C4564EC4995FB092F4B4 /* Pods-POSDemo-iOS.release.xcconfig */,
+				7417AE609291FC1A48585972 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.debug.xcconfig */,
+				6492442976A1D7CFB6C8E8D7 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.release.xcconfig */,
+				32E115BFB0D3BD0C69CFFDCD /* Pods-POSDemo-iOSTests.debug.xcconfig */,
+				FAA57F58FFCFDFCF787C62A5 /* Pods-POSDemo-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6232E1482CE5AD2C00F89AE8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +199,8 @@
 				6232E16A2CE5AD2D00F89AE8 /* POSDemo-iOSTests */,
 				6232E1742CE5AD2D00F89AE8 /* POSDemo-iOSUITests */,
 				6232E1522CE5AD2C00F89AE8 /* Products */,
+				35495979DA9B31B7A85830D9 /* Pods */,
+				D53E684B924049334DBA8D91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +217,11 @@
 		6232E1532CE5AD2C00F89AE8 /* POSDemo-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6232E1542CE5AD2C00F89AE8 /* AppDelegate.swift */,
-				6232E1562CE5AD2C00F89AE8 /* SceneDelegate.swift */,
-				6232E1582CE5AD2C00F89AE8 /* ViewController.swift */,
-				6232E15A2CE5AD2C00F89AE8 /* Main.storyboard */,
-				6232E15D2CE5AD2D00F89AE8 /* Assets.xcassets */,
-				6232E15F2CE5AD2D00F89AE8 /* LaunchScreen.storyboard */,
-				6232E1622CE5AD2D00F89AE8 /* Info.plist */,
+				6232E1842CE5B26900F89AE8 /* App */,
+				6232E1852CE5B2F600F89AE8 /* Modules */,
+				628C4B532D018F3000DF3D09 /* Model */,
+				628C4B582D0194C300DF3D09 /* UI */,
+				628C4B5B2D01950500DF3D09 /* Utility */,
 			);
 			path = "POSDemo-iOS";
 			sourceTree = "<group>";
@@ -127,6 +243,198 @@
 			path = "POSDemo-iOSUITests";
 			sourceTree = "<group>";
 		};
+		6232E1842CE5B26900F89AE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6232E1542CE5AD2C00F89AE8 /* AppDelegate.swift */,
+				6232E1562CE5AD2C00F89AE8 /* SceneDelegate.swift */,
+				6232E15D2CE5AD2D00F89AE8 /* Assets.xcassets */,
+				628C4B682D0577E800DF3D09 /* Colors.xcassets */,
+				6232E15F2CE5AD2D00F89AE8 /* LaunchScreen.storyboard */,
+				6232E1622CE5AD2D00F89AE8 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6232E1852CE5B2F600F89AE8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6232E1862CE5B33700F89AE8 /* Coordinator */,
+				6232E18B2CE5B40E00F89AE8 /* Commodity */,
+				628C4B752D07384200DF3D09 /* Checkout */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6232E1862CE5B33700F89AE8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6232E1872CE5B36B00F89AE8 /* Coordinator.swift */,
+				6232E1892CE5B3A900F89AE8 /* WelcomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6232E18B2CE5B40E00F89AE8 /* Commodity */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B512D018EA200DF3D09 /* CommodityViewModel.swift */,
+				6232E18C2CE5B43000F89AE8 /* CommodityViewController.swift */,
+				628C4B562D0193A200DF3D09 /* CommodityLabelTableView.swift */,
+				628C4B602D056A1D00DF3D09 /* CommodityListCollectionView.swift */,
+				628C4B6A2D06B72A00DF3D09 /* CommodityDetail */,
+			);
+			path = Commodity;
+			sourceTree = "<group>";
+		};
+		6256128B2D27C332005BE9D8 /* Commodity */ = {
+			isa = PBXGroup;
+			children = (
+				6256128C2D27C346005BE9D8 /* CheckoutReviewCommodityViewController.swift */,
+				6256128E2D27C6A7005BE9D8 /* CheckoutReviewCommodityTableView.swift */,
+			);
+			path = Commodity;
+			sourceTree = "<group>";
+		};
+		6256129C2D2EB4D9005BE9D8 /* CheckoutReview */ = {
+			isa = PBXGroup;
+			children = (
+				625612A02D2EB750005BE9D8 /* CheckoutReviewViewModel.swift */,
+				625612892D27B685005BE9D8 /* CheckoutReviewViewController.swift */,
+				6256128B2D27C332005BE9D8 /* Commodity */,
+			);
+			path = CheckoutReview;
+			sourceTree = "<group>";
+		};
+		6256129D2D2EB4E9005BE9D8 /* CheckoutPayment */ = {
+			isa = PBXGroup;
+			children = (
+				625612C92D32411D005BE9D8 /* Card */,
+				625612AA2D30D8DF005BE9D8 /* CheckoutPaymentViewModel.swift */,
+				6256129E2D2EB513005BE9D8 /* CheckoutPaymentViewController.swift */,
+				625612A62D2F9134005BE9D8 /* CheckoutPaymentTableView.swift */,
+			);
+			path = CheckoutPayment;
+			sourceTree = "<group>";
+		};
+		625612AC2D314069005BE9D8 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				625612AD2D314084005BE9D8 /* AlertDialogViewController.swift */,
+				625612AE2D314085005BE9D8 /* POSDemoTitleInputDialogViewController.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		625612B52D31461A005BE9D8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B662D056D0100DF3D09 /* BaseViewController.swift */,
+				625612B12D314506005BE9D8 /* BaseTitleDialogViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		625612C32D31627F005BE9D8 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				625612C82D323CBA005BE9D8 /* Buttons */,
+				6256129A2D27D1A9005BE9D8 /* POSDemoTextField.swift */,
+				625612B62D314671005BE9D8 /* POSDemoInputView.swift */,
+				625612982D27D138005BE9D8 /* BarcodeInputView.swift */,
+				628C4B5E2D05587400DF3D09 /* SearchInputView.swift */,
+				625612902D27C862005BE9D8 /* VerticalAlignLabel.swift */,
+				625612922D27C983005BE9D8 /* InfoView.swift */,
+				625612C42D323B87005BE9D8 /* PickerInputView.swift */,
+				625612C52D323B88005BE9D8 /* PickerViewController.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		625612C82D323CBA005BE9D8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B592D0194D800DF3D09 /* SolidButton.swift */,
+				628C4B6D2D06BD8300DF3D09 /* HollowButton.swift */,
+				628C4B732D06BE0A00DF3D09 /* RadioButton.swift */,
+				625612A22D2F8461005BE9D8 /* WhiteShadowButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		625612C92D32411D005BE9D8 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				625612CA2D324141005BE9D8 /* CheckoutPaymentCardViewController.swift */,
+				625612CC2D324171005BE9D8 /* CheckoutPaymentCardInstallmentViewController.swift */,
+				625612D22D324469005BE9D8 /* CheckoutPaymentCardInstallmentDetailViewController.swift */,
+				625612D42D324487005BE9D8 /* CheckoutPaymentCardAmountViewController.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		628C4B532D018F3000DF3D09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B542D018F8600DF3D09 /* CommodityLabelUiModel.swift */,
+				628C4B622D056A5400DF3D09 /* CommodityUiModel.swift */,
+				625612942D27CCF1005BE9D8 /* CheckoutCommodityUiModel.swift */,
+				625612A42D2F910E005BE9D8 /* CheckoutPaymentItemUiModel.swift */,
+				625612A82D2FF1F8005BE9D8 /* CheckoutUiModel.swift */,
+				625612CE2D3241BD005BE9D8 /* CheckoutPaymentCardUiModel.swift */,
+				625612CF2D3241BD005BE9D8 /* CheckoutPaymentInstallmentUiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		628C4B582D0194C300DF3D09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				625612B52D31461A005BE9D8 /* Base */,
+				625612AC2D314069005BE9D8 /* Dialog */,
+				625612C32D31627F005BE9D8 /* Widget */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		628C4B5B2D01950500DF3D09 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B5C2D01953700DF3D09 /* Extensions.swift */,
+				625612B32D314583005BE9D8 /* Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		628C4B6A2D06B72A00DF3D09 /* CommodityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B6B2D06B75100DF3D09 /* CommodityDetailViewController.swift */,
+				628C4B702D06BDB900DF3D09 /* CommodityDetailColorCollectionView.swift */,
+				628C4B6F2D06BDB900DF3D09 /* CommodityDetailSizeCollectionView.swift */,
+			);
+			path = CommodityDetail;
+			sourceTree = "<group>";
+		};
+		628C4B752D07384200DF3D09 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				6256129C2D2EB4D9005BE9D8 /* CheckoutReview */,
+				6256129D2D2EB4E9005BE9D8 /* CheckoutPayment */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		D53E684B924049334DBA8D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82ECD0E3932DB2DC192C09F1 /* libPods-POSDemo-iOS.a */,
+				D3B41FA6FC049A1A68DCC0D5 /* libPods-POSDemo-iOS-POSDemo-iOSUITests.a */,
+				244D59765F5919F100020E88 /* libPods-POSDemo-iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6232E17B2CE5AD2D00F89AE8 /* Build configuration list for PBXNativeTarget "POSDemo-iOS" */;
 			buildPhases = (
+				FC1E3C66859563CD0E9B4790 /* [CP] Check Pods Manifest.lock */,
 				6232E14D2CE5AD2C00F89AE8 /* Sources */,
 				6232E14E2CE5AD2C00F89AE8 /* Frameworks */,
 				6232E14F2CE5AD2C00F89AE8 /* Resources */,
+				04D52237695230F9782A5894 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +461,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6232E17E2CE5AD2D00F89AE8 /* Build configuration list for PBXNativeTarget "POSDemo-iOSTests" */;
 			buildPhases = (
+				1EFD2305F1C72E03DEDFFAD0 /* [CP] Check Pods Manifest.lock */,
 				6232E1632CE5AD2D00F89AE8 /* Sources */,
 				6232E1642CE5AD2D00F89AE8 /* Frameworks */,
 				6232E1652CE5AD2D00F89AE8 /* Resources */,
@@ -169,9 +480,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6232E1812CE5AD2D00F89AE8 /* Build configuration list for PBXNativeTarget "POSDemo-iOSUITests" */;
 			buildPhases = (
+				9952B5B49AFEB90F5A2F7D55 /* [CP] Check Pods Manifest.lock */,
 				6232E16D2CE5AD2D00F89AE8 /* Sources */,
 				6232E16E2CE5AD2D00F89AE8 /* Frameworks */,
 				6232E16F2CE5AD2D00F89AE8 /* Resources */,
+				AEEA415A451F9D131CE8F6CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +544,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628C4B692D0577E800DF3D09 /* Colors.xcassets in Resources */,
 				6232E1612CE5AD2D00F89AE8 /* LaunchScreen.storyboard in Resources */,
 				6232E15E2CE5AD2D00F89AE8 /* Assets.xcassets in Resources */,
-				6232E15C2CE5AD2C00F89AE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +566,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D52237695230F9782A5894 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS/Pods-POSDemo-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS/Pods-POSDemo-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS/Pods-POSDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFD2305F1C72E03DEDFFAD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSDemo-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9952B5B49AFEB90F5A2F7D55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSDemo-iOS-POSDemo-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEA415A451F9D131CE8F6CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS-POSDemo-iOSUITests/Pods-POSDemo-iOS-POSDemo-iOSUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS-POSDemo-iOSUITests/Pods-POSDemo-iOS-POSDemo-iOSUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POSDemo-iOS-POSDemo-iOSUITests/Pods-POSDemo-iOS-POSDemo-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1E3C66859563CD0E9B4790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSDemo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6232E14D2CE5AD2C00F89AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6232E1592CE5AD2C00F89AE8 /* ViewController.swift in Sources */,
+				625612A12D2EB750005BE9D8 /* CheckoutReviewViewModel.swift in Sources */,
+				625612D12D3241BD005BE9D8 /* CheckoutPaymentInstallmentUiModel.swift in Sources */,
+				628C4B572D0193A200DF3D09 /* CommodityLabelTableView.swift in Sources */,
+				625612C62D323B88005BE9D8 /* PickerInputView.swift in Sources */,
+				625612932D27C983005BE9D8 /* InfoView.swift in Sources */,
+				625612AB2D30D8DF005BE9D8 /* CheckoutPaymentViewModel.swift in Sources */,
+				6232E1882CE5B36B00F89AE8 /* Coordinator.swift in Sources */,
+				6232E18A2CE5B3A900F89AE8 /* WelcomeCoordinator.swift in Sources */,
+				628C4B552D018F8600DF3D09 /* CommodityLabelUiModel.swift in Sources */,
+				625612D02D3241BD005BE9D8 /* CheckoutPaymentCardUiModel.swift in Sources */,
+				625612992D27D138005BE9D8 /* BarcodeInputView.swift in Sources */,
+				625612952D27CCF1005BE9D8 /* CheckoutCommodityUiModel.swift in Sources */,
+				625612B02D314085005BE9D8 /* POSDemoTitleInputDialogViewController.swift in Sources */,
+				625612CB2D324141005BE9D8 /* CheckoutPaymentCardViewController.swift in Sources */,
+				625612D32D324469005BE9D8 /* CheckoutPaymentCardInstallmentDetailViewController.swift in Sources */,
+				6256129B2D27D1A9005BE9D8 /* POSDemoTextField.swift in Sources */,
+				628C4B612D056A1D00DF3D09 /* CommodityListCollectionView.swift in Sources */,
+				625612912D27C862005BE9D8 /* VerticalAlignLabel.swift in Sources */,
+				628C4B742D06BE0A00DF3D09 /* RadioButton.swift in Sources */,
+				625612AF2D314085005BE9D8 /* AlertDialogViewController.swift in Sources */,
+				628C4B672D056D0100DF3D09 /* BaseViewController.swift in Sources */,
+				625612CD2D324171005BE9D8 /* CheckoutPaymentCardInstallmentViewController.swift in Sources */,
 				6232E1552CE5AD2C00F89AE8 /* AppDelegate.swift in Sources */,
+				625612B42D314583005BE9D8 /* Utils.swift in Sources */,
+				628C4B5D2D01953700DF3D09 /* Extensions.swift in Sources */,
+				6256128F2D27C6A7005BE9D8 /* CheckoutReviewCommodityTableView.swift in Sources */,
+				625612A72D2F9134005BE9D8 /* CheckoutPaymentTableView.swift in Sources */,
+				628C4B5A2D0194D800DF3D09 /* SolidButton.swift in Sources */,
+				625612B72D314671005BE9D8 /* POSDemoInputView.swift in Sources */,
+				6232E18D2CE5B43000F89AE8 /* CommodityViewController.swift in Sources */,
+				628C4B522D018EA200DF3D09 /* CommodityViewModel.swift in Sources */,
+				625612D52D324487005BE9D8 /* CheckoutPaymentCardAmountViewController.swift in Sources */,
+				625612C72D323B88005BE9D8 /* PickerViewController.swift in Sources */,
+				628C4B632D056A5400DF3D09 /* CommodityUiModel.swift in Sources */,
 				6232E1572CE5AD2C00F89AE8 /* SceneDelegate.swift in Sources */,
+				625612A52D2F910E005BE9D8 /* CheckoutPaymentItemUiModel.swift in Sources */,
+				625612B22D314506005BE9D8 /* BaseTitleDialogViewController.swift in Sources */,
+				628C4B722D06BDB900DF3D09 /* CommodityDetailColorCollectionView.swift in Sources */,
+				625612A92D2FF1F8005BE9D8 /* CheckoutUiModel.swift in Sources */,
+				628C4B6C2D06B75100DF3D09 /* CommodityDetailViewController.swift in Sources */,
+				6256128A2D27B685005BE9D8 /* CheckoutReviewViewController.swift in Sources */,
+				6256128D2D27C346005BE9D8 /* CheckoutReviewCommodityViewController.swift in Sources */,
+				628C4B6E2D06BD8300DF3D09 /* HollowButton.swift in Sources */,
+				6256129F2D2EB513005BE9D8 /* CheckoutPaymentViewController.swift in Sources */,
+				628C4B5F2D05587400DF3D09 /* SearchInputView.swift in Sources */,
+				628C4B712D06BDB900DF3D09 /* CommodityDetailSizeCollectionView.swift in Sources */,
+				625612A32D2F8461005BE9D8 /* WhiteShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +757,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6232E15A2CE5AD2C00F89AE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6232E15B2CE5AD2C00F89AE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6232E15F2CE5AD2D00F89AE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,62 +889,75 @@
 		};
 		6232E17C2CE5AD2D00F89AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA656873B5AB7D9498A8F760 /* Pods-POSDemo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z65K2PKR7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "POSDemo-iOS/Info.plist";
+				INFOPLIST_FILE = "POSDemo-iOS/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crepowermay.POSDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		6232E17D2CE5AD2D00F89AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8026C4564EC4995FB092F4B4 /* Pods-POSDemo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z65K2PKR7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "POSDemo-iOS/Info.plist";
+				INFOPLIST_FILE = "POSDemo-iOS/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crepowermay.POSDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		6232E17F2CE5AD2D00F89AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E115BFB0D3BD0C69CFFDCD /* Pods-POSDemo-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +978,7 @@
 		};
 		6232E1802CE5AD2D00F89AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA57F58FFCFDFCF787C62A5 /* Pods-POSDemo-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +999,7 @@
 		};
 		6232E1822CE5AD2D00F89AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7417AE609291FC1A48585972 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +1018,7 @@
 		};
 		6232E1832CE5AD2D00F89AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6492442976A1D7CFB6C8E8D7 /* Pods-POSDemo-iOS-POSDemo-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
